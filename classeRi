@@ -1,17 +1,17 @@
-package Indexation ;
+package autre;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class classeRI {
+public class teste {
 	
 	
 	 
 	
 	    public static void main(String[] args)
 	    { 		
-	        String filePath = "E:/exposés/RI/collection/b.txt";
+	        String filePath = "E:/exposÃ©s/RI/collection/b.txt";
 	       lectureMot( filePath )  ;
 	        //System.out.println( readAllBytesJava7( filePath ) );
 	    }
@@ -24,7 +24,7 @@ public class classeRI {
 	        String content = "";
 	 
 	        try
-	        {     Path path=Paths.get("E:/exposés/RI/collection/resultat.txt") ;
+	        {     Path path=Paths.get("E:/exposÃ©s/RI/collection/resultat.txt") ;
   
 	            content = new String ( Files.readAllBytes( Paths.get(filePath) ) );
 	            String mots[] = content.split(SEPARATEUR);//separer les mots
